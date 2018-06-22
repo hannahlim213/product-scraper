@@ -10,7 +10,7 @@ var axios = require("axios");
 var cheerio = require("cheerio");
 
 // Require all models
-// var models = require("./models");
+var db = require("./models");
 
 var PORT = 3000;
 
@@ -28,7 +28,7 @@ app.use(express.static("public"));
 
 // Connect to the Mongo DB
 mongoose.connect("mongodb://localhost/scraper");
-var db = mongoose.connection;
+// var db = mongoose.connection;
 
 // Routes
 
