@@ -3,13 +3,10 @@ Scrape cool products from producthunt.com and write a note for any products you 
 
 ## Getting Started
 
-Open up the [project link](https://murmuring-hamlet-49489.herokuapp.com/) and you should be able to see the example webpage shown below:
+Open up the [project link](https://murmuring-hamlet-49489.herokuapp.com/) and add /scrape at the end of the url. Then go back and you should see this:
 
-![Homepage](assets/images/home-page.png)
+![Homepage](./front-page.PNG)
 
-Enter your zip code and join the MoveMe nation! See what people just like you are getting involved in in your local community. With every step forward, we stem the rising tide of apathy and take ownership of the future of our nation!
-
-![MoveMe](assets/images/MoveMe.gif "MoveMe Demo")
 
 ### Prerequisites
 
@@ -31,11 +28,17 @@ No installation needed! Just open the page in your preferred browser.
 
 * [jQuery v3.3.1](http://jquery.com/) - Java library for DOM and CSS manipulation
 
-## Mobile Responsiveness
+* [Node.js](https://nodejs.org/en/) - JavaScript runtime
 
-![Mobile Responsiveness](assets/images/MobileResponsiveness.gif)
+* [Node Package Manager](https://www.npmjs.com/) - Package manager for JavaScript and Node
 
-Using Bootstrap and CSS, we worked to ensure mobile responsiveness in order for users to be able to utilize our app on the go and connect with other Movers from anywhere in the nation.
+* [Express](https://www.npmjs.com/package/express) - Server-side framework
+
+* [Body Parser](https://www.npmjs.com/package/cli-table) - Request parsing middleware
+
+* [Mongoose](http://mongoosejs.com/) - MongoDB ODM
+
+* [Cheerio](https://www.npmjs.com/package/cheerio) - Server-side markup parser
 
 ## Author
 
